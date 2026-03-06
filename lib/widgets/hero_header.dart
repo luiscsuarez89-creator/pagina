@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class HeroHeader extends StatelessWidget {
   const HeroHeader({super.key});
@@ -70,8 +71,12 @@ class HeroHeader extends StatelessWidget {
               ),
               const SizedBox(height: 48),
               ElevatedButton.icon(
-                onPressed: () {
-                  // Acción de contacto (scrolling o abrir link)
+                onPressed: () async {
+                  final Uri url = Uri.parse('https://forms.gle/yTBEFvwE7Vud8mqeA');
+                  if (!await launchUrl(url)) {
+                    // ignore: avoid_print
+                    print('Could not launch $url');
+                  }
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.white,

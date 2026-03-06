@@ -20,7 +20,6 @@ class ServiceRepository {
         ServiceItem(service: 'Diagnóstico técnico', price: 'COP 50.000'),
         ServiceItem(service: 'Reparación de sistema operativo', price: 'Desde COP 140.000'),
         ServiceItem(service: 'Cambio de disco HDD a SSD (sin repuesto)', price: 'Desde COP 110.000'),
-        ServiceItem(service: 'Cambio de pantalla portátil (mano de obra)', price: 'Desde COP 180.000'),
         ServiceItem(service: 'Recuperación básica de datos', price: 'Desde COP 160.000'),
       ],
     ),
@@ -31,7 +30,6 @@ class ServiceRepository {
         ServiceItem(service: 'Asesoría para compra de equipos', price: 'COP 90.000 / hora'),
         ServiceItem(service: 'Configuración de oficina en casa', price: 'Desde COP 130.000'),
         ServiceItem(service: 'Implementación de copias de seguridad', price: 'Desde COP 120.000'),
-        ServiceItem(service: 'Asesoría en ciberseguridad básica', price: 'COP 100.000 / hora'),
       ],
     ),
   ];

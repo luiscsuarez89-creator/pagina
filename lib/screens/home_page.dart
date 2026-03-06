@@ -30,14 +30,14 @@ class HomePage extends StatelessWidget {
                 const Text('Cómputo Bogotá'),
               ],
             ),
-            actions: [
-              TextButton.icon(
-                onPressed: () {},
-                icon: const Icon(Icons.phone),
-                label: const Text('Contacto'),
-              ),
-              const SizedBox(width: 16),
-            ],
+            // actions: [
+            //   TextButton.icon(
+            //     onPressed: () {},
+            //     icon: const Icon(Icons.phone),
+            //     label: const Text('Contacto'),
+            //   ),
+            //   const SizedBox(width: 16),
+            // ],
           ),
 
           // 2. Body con el Header Premium
