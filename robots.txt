@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://luiscsuarez89-creator.github.io/pagina/sitemap.xml
